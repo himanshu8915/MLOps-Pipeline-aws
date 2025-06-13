@@ -36,6 +36,10 @@ Adding a remote S# to DVC: (Add Remote storage)
 27)finally git add,commit,push
 
 
+Extras:
+1)Remove/delete aws resources
+2) adding stage to dvc.yaml: "dvc stage add -n data_ingestion -d src/data_ingestion.py -o data/raw python src/data_ingestion.py"
+
 
 
 
